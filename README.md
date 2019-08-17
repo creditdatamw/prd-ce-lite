@@ -21,6 +21,11 @@ e.g. `8.3.0.0-371-lite-1`
 
 ### Building
 
+#### Pre-requisites for building the project:
+* Git
+* Maven, version 3.5+
+* Java JDK 1.8
+
 ```sh
 $ git clone https://github.com/creditdatamw/prd-ce-lite.git
 $ cd prd-ce-lite
