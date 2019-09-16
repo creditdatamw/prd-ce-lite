@@ -10,7 +10,7 @@
 
   <groupId>com.creditdatamw.labs</groupId>
   <artifactId>prd-ce-lite</artifactId>
-  <version>8.3.0.0-371-lite-1</version>
+  <version>8.3.0.0-371-lite-2</version>
   <packaging>pom</packaging>
   <name>Pentaho Report Designer CE Assembly - Lite</name>
   
@@ -279,6 +279,11 @@
       <groupId>luciddb</groupId>
       <artifactId>LucidDbClient-minimal</artifactId>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mariadb.jdbc</groupId>
+      <artifactId>mariadb-java-client</artifactId>
+      <version>2.4.4</version>
     </dependency>
     <dependency>
       <groupId>monetdb</groupId>
