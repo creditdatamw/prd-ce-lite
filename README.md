@@ -1,5 +1,10 @@
+[![](https://img.shields.io/github/license/creditdatamw/prd-ce-lite.svg)](./LICENSE)
+![](https://travis-ci.org/creditdatamw/prd-ce-lite.svg?branch=master)
+
 Pentaho Report Designer Lite Build
 ===
+
+
 
 Pentaho Report Designer is a visual report design tool that's great for designing reports that can be exported to PDF, HTML, Excel etc... This project generates a _lite_ build of the [Pentaho Report Designer](https://help.pentaho.com/Documentation/8.2/Products/Report_Designer).
 
