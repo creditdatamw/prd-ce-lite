@@ -383,6 +383,20 @@
       <artifactId>pentaho-application-launcher</artifactId>
       <scope>runtime</scope>
     </dependency>
+    <!-- Added to make travis build succeeed -->
+    <dependency>
+      <groupId>pentaho</groupId>
+      <artifactId>pentaho-versionchecker</artifactId>
+      <version>${project.parent.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>pentaho</groupId>
+      <artifactId>pdi-dataservice-client-plugin</artifactId>
+      <version>${project.parent.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <!-- ./Added to make travis build succeed -->
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
