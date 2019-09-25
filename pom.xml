@@ -442,7 +442,7 @@
                 <outputDirectory>${stage.dir.designer}/lib</outputDirectory>
                 <includeTypes>jar</includeTypes>
                 <includeScope>compile</includeScope>
-                <excludeArtifactIds>derby,derbyclient,h2,jaybird,jt400,LucidDbClient-minimal,sapdbc,sqlite-jdbc,pdi-dataservice-client-plugin</excludeArtifactIds>
+                <excludeArtifactIds>derby,derbyclient,h2,jaybird,jt400,LucidDbClient-minimal,mariadb-java-client,sapdbc,sqlite-jdbc,pdi-dataservice-client-plugin</excludeArtifactIds>
               </configuration>
             </execution>
             <execution>
@@ -453,7 +453,7 @@
               </goals>
               <configuration>
                 <outputDirectory>${stage.dir.designer}/lib/jdbc</outputDirectory>
-                <includeArtifactIds>derby,derbyclient,h2,hsqldb,infobright-core,jaybird,jt400,LucidDbClient-minimal,monetdb-jdbc,postgresql,sapdbc,sqlite-jdbc,pdi-dataservice-client-plugin</includeArtifactIds>
+                <includeArtifactIds>derby,derbyclient,h2,hsqldb,infobright-core,jaybird,jt400,LucidDbClient-minimal,mariadb-java-client,monetdb-jdbc,postgresql,sapdbc,sqlite-jdbc,pdi-dataservice-client-plugin</includeArtifactIds>
               </configuration>
             </execution>
           </executions>
